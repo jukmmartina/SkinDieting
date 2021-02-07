@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseFragment"
+    android:layout_centerInParent="true"
+    android:id="@+id/choose"
+    android:background="@drawable/foodbackground">
+
+    <TextView
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/tvChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Choose"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btnOption1"
+        android:layout_below="@+id/tvChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option1"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btnOption2"
+        android:layout_below="@+id/btnOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option2"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btnOption3"
+        android:layout_below="@+id/btnOption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option3"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

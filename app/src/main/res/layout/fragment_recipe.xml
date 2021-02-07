@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragment"
+    android:id="@+id/recipeFragment"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginLeft="105dp"
+        android:textColor="@color/black"/>
+<LinearLayout
+    android:id="@+id/LL1"
+    android:layout_below="@+id/tvName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp">
+    <ImageView
+        android:id="@+id/ivRecipe"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/healthy"
+        android:layout_marginRight="1dp"/>
+    <TextView
+        android:id="@+id/tvIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/ivRecipe"/>
+</LinearLayout>
+    <TextView
+        android:id="@+id/tvInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hihi"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/LL1" />
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:text="Hmm, maybe next time"
+        android:paddingBottom="10dp"/>
+
+</RelativeLayout>

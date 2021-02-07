@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SkinDieting</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skinDieting">How skin dieting works</string>
+    <string name="mainText">"\n Acne can easy be triggered by certain foods, therefore a balanced diet is key to good looking skin. This app will help you by giving recipes which are good for your skin. But first, lets get a quick overview...\n \n Use healthy oils (like olive oil and canola oil) for cooking, on salad, and at the table. Limit butter. Avoid trans fat. The more veggies - and the grater the variety - the better. P.S. potatoes and French fries don't count, sorry. Eat plenty of fruits of all colors. Drink water, tea, or coffee (with little or no sugar). Limit milk/dairy (1-2 servings/day) nad juice (1 small glass/day). Avoid sugary drinks. Eat a variety of whole grains (like whole-wheat bread, whole-grain pasta and brown rice). Limit refined grains (like white rice and white bread). Choose fish, poultry, beans and nuts. Limit red meat and cheese, avoid bacon, cold cuts and other processed meats. And, in what proportions? Let's make it easy and just look at this graph."</string>
+    <string name="footer">"As you can see, staying active is essential, so this app alone will not make your problems disappear :( \n But for your recipes, swipe left!\n"</string>
+    <string name="insert">Press enter to insert item</string>
+    <string name="button">Insert</string>
+    <string name="grocery">Grocery List</string>
+    <string name="delete">Delete all</string>
+    <string name="Choose">I want..</string>
+    <string name="option1">Breakfast</string>
+    <string name="option2">Lunch</string>
+    <string name="option3">Dinner</string>
+</resources>
